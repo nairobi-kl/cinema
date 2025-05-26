@@ -1,0 +1,104 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "title": "Eternal Echoes",
+      "posterUrl": "https://images.pexels.com/photos/8108381/pexels-photo-8108381.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "genre": [
+        "Drama",
+        "Romance"
+      ],
+      "duration": 125,
+      "rating": 4.8,
+      "releaseDate": "2024-05-15",
+      "description": "A timeless love story that transcends generations.",
+      "showtimes": [
+        {
+          "id": 101,
+          "movieId": 1,
+          "time": "14:30",
+          "date": "2024-06-10",
+          "hall": 1
+        },
+        {
+          "id": 102,
+          "movieId": 1,
+          "time": "18:45",
+          "date": "2024-06-10",
+          "hall": 2
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Neon Shadows",
+      "posterUrl": "https://images.pexels.com/photos/7991486/pexels-photo-7991486.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "genre": [
+        "Sci-Fi",
+        "Action"
+      ],
+      "duration": 142,
+      "rating": 4.5,
+      "releaseDate": "2024-06-01",
+      "description": "A rebel hacker discovers a conspiracy in a dystopian future.",
+      "showtimes": [
+        {
+          "id": 201,
+          "movieId": 2,
+          "time": "15:00",
+          "date": "2024-06-10",
+          "hall": 3
+        },
+        {
+          "id": 202,
+          "movieId": 2,
+          "time": "19:15",
+          "date": "2024-06-10",
+          "hall": 1
+        }
+      ]
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1747865407782,
+      "movieId": 2,
+      "showtimeId": 201,
+      "seats": [
+        3
+      ],
+      "totalPrice": 110,
+      "bookingDate": "2025-05-21T22:10:07.782Z",
+      "customerName": "Анна Михайлівна Кулибчук",
+      "customerPhone": "0684720766",
+      "customerEmail": "kulibchuk.a2006@gmail.com"
+    },
+    {
+      "id": 1747865433596,
+      "movieId": 1,
+      "showtimeId": 102,
+      "seats": [
+        6,
+        4
+      ],
+      "totalPrice": 210,
+      "bookingDate": "2025-05-21T22:10:33.596Z",
+      "customerName": "Анна Михайлівна Кулибчук",
+      "customerPhone": "0684720766",
+      "customerEmail": "kulibchuk.a2006@gmail.com"
+    },
+    {
+      "id": 1747865477325,
+      "movieId": 2,
+      "showtimeId": 201,
+      "seats": [
+        4
+      ],
+      "totalPrice": 110,
+      "bookingDate": "2025-05-21T22:11:17.325Z",
+      "customerName": "Анна Михайлівна Кулибчук",
+      "customerPhone": "0684720766",
+      "customerEmail": "kulibchuk.a2006@gmail.com"
+    }
+  ]
+}
