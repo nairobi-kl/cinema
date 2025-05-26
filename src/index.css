@@ -130,3 +130,13 @@ body {
   background-color: var(--primary);
   color: var(--white);
 }
+
+@media (max-width: 640px) {
+  .seat-grid {
+    justify-content: center;
+  }
+  .seat {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
